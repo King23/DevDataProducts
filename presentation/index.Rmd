@@ -1,0 +1,71 @@
+---
+title       : Developing Data Products 
+                - Course Project  
+subtitle    : Mtcars Data Analysis
+author      : King23
+job         : 
+framework   : revealjs      # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : default       # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+
+---
+
+
+## <font color="yellow">Developing Data Products 
+## - Course Project </font>
+<br>
+Mtcars Data Analysis with Single Regression Modeling
+
+author: King23
+
+
+---
+
+## <font color="yellow">Introduction</font>
+
+<p style="text-align: left;" markdown="1">
+This presentation is being created as part of the course project for the coursera developing data products class. The assignment objective is to ensure the following concepts were well understood by the students 
+<br><br> </p>  
+
+
++ <font color="yellow">**Shiny**</font> to build data product application  
++ <font color="yellow">**Slidify**</font> to create data product related presentations
+
+---
+## <font color="yellow">The Shiny Application</font>  
+
+<p style="text-align: left;" markdown="1">
+This shiny application is simply use the mtcars dataset from library(dataset) in R and build a data visualization to users.  <br><br>
+
+First, user can select the type of cylinder to filter the dataset. This application will provide data visualization below based on the user's input.  <br><br>
+
+1) boxplot    - Comparison of mpg by car's tranmission type <br>
+2) data table - Display user's filtered dataset interactively  <br>
+3) ggplot     - Visualize the Estimate value of coefficient from Single Regreesion Model calculation  <br><br>
+
+<font color="yellow">fit <- lm(mpg ~ am , data = dat1) </font> <br>
+where mpg is mile per gallon, am is tranmission type and dat1 if filtered dataset based on user input.
+
+
+<br><br> </p>
+
+---
+
+## <font color="yellow">Dataset</font>
+<p style="text-align: left;" markdown="1">
+The dataset being used in this application is 'mtcars' from  
+library(datasets) <br><br> </p>  
+
+```{r}
+library(datasets)
+head(mtcars)
+
+```
+
+---
+
+# <font color="yellow">END</font>
+

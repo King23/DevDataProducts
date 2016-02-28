@@ -1,0 +1,24 @@
+##Developing Data Prododucts - CourseProject
+
+This shiny application is simply use the mtcars dataset from library(dataset) in R and build a data visualization to users.  
+
+###Function of the Shiny Application  
+
+First, the Shiny application provide an user input by using radio button. User can select the type of cylinder to filter the dataset. Once the input selected,
+the Shiny application will plot the boxplot for MPG (fuel consumption) grouping by Auto or Manual transmission based on the selected cylinder type of cars.  
+
+The data table on the right also will be filtered automatically based on the user input so the dataset can be viewed in table form interactively.  
+
+At the bottom tab called "Estimate", it show the calculated Estimate from the Coefficien summary by using single Regression Modeling below:  
+    
+**fit <- lm(mpg ~ am , data = dat1)**  
+where mpg is mile per gallon, am is tranmission type and dat1 if filtered dataset based on user input.
+
+From the Coefficien summary, we can obtained the Intercept and Estimate value, then visualize it on a ggplot.  
+
+
+
+
+
+
+
