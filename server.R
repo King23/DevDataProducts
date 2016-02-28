@@ -33,7 +33,7 @@ shinyServer(function(input, output){
     
     
     getPage<-function() {
-        return(includeHTML("About.html"))
+        return(includeHTML("README.html"))
     }
     output$readme<-renderUI({getPage()})
     
