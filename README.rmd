@@ -17,11 +17,13 @@ The data table on the right also will be filtered automatically based on the use
 At the bottom tab called "Estimate", it show the calculated Estimate from the Coefficien summary by using single Regression Modeling below:  
     
 **fit <- lm(mpg ~ am , data = dat1)**  
-where mpg is mile per gallon, am is tranmission type and dat1 if filtered dataset based on user input.
+where 'mpg' is mile per gallon, 'am' is tranmission type and 'dat1' if filtered dataset based on user input.
 
 From the Coefficien summary, we can obtained the Intercept and Estimate value, then visualize it on a ggplot.  
 
+The source code for the project is available on [GitHub](https://github.com/King23/DevDataProducts)  
 
+While for the online presentation, it can be viewed at [GitHub_Presentation](http://king23.github.io/DevDataProducts/presentation/index.html)
 
 
 

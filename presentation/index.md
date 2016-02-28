@@ -47,7 +47,7 @@ First, user can select the type of cylinder to filter the dataset. This applicat
 3) ggplot     - Visualize the Estimate value of coefficient from Single Regreesion Model calculation  <br><br>
 
 <font color="yellow">fit <- lm(mpg ~ am , data = dat1) </font> <br>
-where mpg is mile per gallon, am is tranmission type and dat1 if filtered dataset based on user input.
+where 'mpg' is mile per gallon, 'am' is tranmission type and 'dat1' if filtered dataset based on user input.
 
 
 <br><br> </p>
@@ -77,5 +77,11 @@ head(mtcars)
 
 ---
 
-# <font color="yellow">END</font>
+## <font color="yellow">Links</font>
+<br>
+<p style="text-align: Center;" markdown="1">
+The source code for the project is available here: </p> [GitHub](https://github.com/King23/DevDataProducts)  
 
+<br>
+<p style="text-align: Center;" markdown="1">
+While for the online presentation, it can be viewed here: </p> [GitHub_Presentation](http://king23.github.io/DevDataProducts/presentation/index.html)
