@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ##Developing Data Prododucts - CourseProject
 
 This shiny application is simply use the mtcars dataset from library(dataset) in R and build a data visualization to users.  
@@ -22,3 +23,6 @@ From the Coefficien summary, we can obtained the Intercept and Estimate value, t
 
 
 
+=======
+# DevDataProducts
+>>>>>>> a6596776c01b19ca0261576273760413b4dc815c
