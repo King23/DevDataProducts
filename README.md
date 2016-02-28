@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ##Developing Data Prododucts - CourseProject
 
 This shiny application is simply use the mtcars dataset from library(dataset) in R and build a data visualization to users.  
@@ -18,11 +17,3 @@ where mpg is mile per gallon, am is tranmission type and dat1 if filtered datase
 From the Coefficien summary, we can obtained the Intercept and Estimate value, then visualize it on a ggplot.  
 
 
-
-
-
-
-
-=======
-# DevDataProducts
->>>>>>> a6596776c01b19ca0261576273760413b4dc815c
